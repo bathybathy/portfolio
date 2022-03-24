@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    color: #14213d;
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px;
+    
+}
+h1{
+   color: #FC4A1A
+}

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import './App.css';
+
+import Contato from './pages/Contato'
+import Repositorios from './pages/Repositorios'
+import Perfil from './pages/Perfil'
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+
+// import ReactDOM from 'react-dom'
+// import { FontAwesomeIcon } from '@fortawesome/fontawesome-svg-core'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Perfil />} />
+        <Route path='/repositorios' element={<Repositorios />} />
+        <Route path='/contato' element={<Contato />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
     </div>
   );
 }
