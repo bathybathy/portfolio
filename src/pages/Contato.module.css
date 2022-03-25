@@ -1,0 +1,14 @@
+.containerContato h2{
+    color: #003049;
+    padding-bottom: 15px;
+   
+}
+
+.containerContato{
+    align-items: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}

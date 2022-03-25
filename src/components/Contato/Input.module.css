@@ -12,4 +12,5 @@
 }
 .inputForm::placeholder{
     color:#fdf0d5;
+    padding: 3px;
 }

@@ -17,9 +17,10 @@ textarea{
 }
 textarea::placeholder{
     color: #fdf0d5;
+    padding: 3px;
 }
 .botao{
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
     background-color: #669bbc;
     color: #fdf0d5;
