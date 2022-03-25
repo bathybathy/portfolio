@@ -3,21 +3,14 @@ import {useEffect, useState} from 'react'
 
 import styles from './Foto.module.css'
 
-function Foto () {
-    async function setup(){
-        const {data} = await axios.get('https://api.github.com/users/bathybathy')
-        const pegarFoto = data.avatar_url;
-        setFoto(pegarFoto)
-        
-    }
+function Foto ({dados}) {
+    
+    console.log(dados, "aqui")
 
-    const [foto, setFoto] = useState('')
-    useEffect( () => {
-        setup()
-    }, []);
+    const {avatar_url} = dados 
 
     return(
-        <div><img src={foto} className={styles.foto} alt="foto de perfil do git" /></div>
+        <div><img src={avatar_url} className={styles.foto} alt="foto de perfil do git" /></div>
     )
 }
 

@@ -1,0 +1,31 @@
+.containerForm{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #003049;
+    align-items: center;
+    padding: 30px 0;
+    color:#fdf0d5;
+    border-radius: 25px;
+}
+textarea{
+    background-color: #003049;
+    color: #fdf0d5;
+    border: 2px #669bbc solid;
+    border-radius: 5px;
+}
+textarea::placeholder{
+    color: #fdf0d5;
+}
+.botao{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #669bbc;
+    color: #fdf0d5;
+    border: 1px #fdf0d5 solid;
+    
+}
+.botao:hover{
+    cursor: pointer;
+}

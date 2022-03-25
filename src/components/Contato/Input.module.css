@@ -1,0 +1,15 @@
+.inputForm{
+    width: 237px;
+    background-color: #003049;
+    color: #fdf0d5;
+    padding: 3px;
+    border: 2px #669bbc solid;
+    border-radius: 5px;
+    
+}
+.inputDiv{
+    padding-bottom: 6px;
+}
+.inputForm::placeholder{
+    color:#fdf0d5;
+}

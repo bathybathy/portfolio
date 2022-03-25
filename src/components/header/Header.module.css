@@ -1,4 +1,4 @@
-ul{
+.ulHeader{
     list-style-type: none;
     display: flex;
     gap: 20px;
@@ -11,22 +11,23 @@ ul{
 header{
     height: 70px;
     width: 100%;
-    background-color: #4ABDAC;
+    background-color: #003049;
     /* top: 0;
     position: absolute; */
     border-radius: 0px 0px 15px 15px;
     font-weight: bold;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .lista{
     text-decoration: none;
-    color: #14213d;
+    color: #669bbc;
   
 }
 
 .lista:hover{
     cursor: pointer;
     font-size: 17px;
-    color:#FC4A1A;
+    color:#c1121f;
 }

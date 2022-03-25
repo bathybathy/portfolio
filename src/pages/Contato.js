@@ -1,7 +1,10 @@
+import Form from "../components/Contato/Form"
 
 function Contato (){
 
-    return(<div>página do Contato</div> )
+    return(<div>
+        <h2>Contato</h2>
+    <Form /> </div>)
 }
 
 export default Contato

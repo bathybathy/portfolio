@@ -1,12 +1,26 @@
-.container{
+.containerPerfil{
     display: flex;
     max-width: 1000px;
-    color: #14213d;
+    color: #669bbc;
     margin: 0 auto;
     align-items: center;
     padding: 30px;
+    background-color: #003049;
+    border-radius: 25px;
+    justify-content: center;
+    
     
 }
-h1{
-   color: #FC4A1A
+.containerPerfil h1{
+   color: #c1121f;
+   padding: 15px;
 }
+.containerBio{
+    padding: 15px 20px;
+}
+
+.containerIcones{
+    display: flex;
+}
+
+/* #14213d */
